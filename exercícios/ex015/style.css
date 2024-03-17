@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Criamos uma regra para que o link aceite os caracteres*/
+
+body{
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: darkred;
+    background-color: rgb(231, 163, 175);
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(251, 89, 124);
+}
+p{
+    text-align: justify;
+}
