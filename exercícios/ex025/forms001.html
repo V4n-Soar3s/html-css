@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!--Todo formulário precisa estar entre as tags <form> e <\form>-->
+    <h1>Meu primeiro formulário</h1>
+    <form  action="cadastro.php" autocomplete="off"><!--autocomplete serve p/ ativar ou desativar a caixa de sugestões de preenchimento em um formulário-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p> <!--input tem varias seleções para criarmos uma caixa de entrada utilizamos input text-->
+        <p><label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p><!--utilizamos o input submit(submeter) para criar um botão de enviar que sugere somente um atributo que é o value(valor) para que o botão não fique vazio-->
+        <!--As definições nome e sobrenome não possuem nenhuma ligação com a caixa de texto criada pelo input e para isso ter alguma ligação precisamos criar um link para que funcione em conjunto-->
+
+    </form>
+</body>
+</html>
