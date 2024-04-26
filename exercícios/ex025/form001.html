@@ -13,7 +13,7 @@
 <body>
     <!--Todo formulário precisa estar entre as tags <form> e <\form>-->
     <h1>Meu primeiro formulário</h1>
-    <form  action="cadastro.php" autocomplete="off"><!--autocomplete serve p/ ativar ou desativar a caixa de sugestões de preenchimento em um formulário-->
+    <form  action="cadastro.php" method="post" autocomplete="off"><!--autocomplete serve p/ ativar ou desativar a caixa de sugestões de preenchimento em um formulário, method é para definir se os dados irão aparecer na url ou não e action para direcionar os dados para a linguagem de programação que será utilizada-->
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome">
         </p> <!--input tem varias seleções para criarmos uma caixa de entrada utilizamos input text-->
